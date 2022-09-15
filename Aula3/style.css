@@ -1,0 +1,18 @@
+#root {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    padding: 56px;
+    gap: 12px;
+}
+
+.item-wrapper {
+    background-color: #686868;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
